@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Homepage</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctors Menu " type="boolean" value="false" -->
+<!-- TemplateParam name="The Companions " type="boolean" value="false" -->
+</head>
+
+<body>
+<table width="1000">
+  <tr>
+    <td><a href="../index.html">Home</a></td>
+    <td><a href="../The Doctors /index.html">The Doctors </a></td>
+    <td><a href="../the-companions/index.html">The Companions</a></td>
+    <td><a href="../The Villains /index..html">The Villains </a></td>
+  </tr>
+  <tr>
+    <td colspan="4">[Banner]</td>
+  </tr>
+</table>
+<table width="1000">
+  <tr>
+    <td><ul>
+      <!-- TemplateBeginIf cond="_document['The Doctors Menu ']" -->
+        <li><a href="../The Doctors /index.html">The Doctors</a></li>
+        <li><a href="../The Doctors /the-first-doctor.html">The 1st Doctor</a></li>
+        <li><a href="../The Doctors /the-second-doctor.html">The 2nd Doctor</a></li>
+        <li><a href="../The Doctors /the-third-doctor.html">The 3rd Doctor</a></li>
+        <li><a href="../The Doctors /the-fourth-doctor.html">The 4th Doctor</a></li>
+        <li><a href="../The Doctors /the-fifth-doctor.html">The 5th Doctor</a></li>
+        <li>The 6th Doctor</li>
+        <li>The 7th Doctor</li>
+        <li>The 8th Doctor</li>
+        <li>The War Doctor </li>
+        <li>The 9th Doctor</li>
+        <li>The 10th Doctor</li>
+        <li>The 11th Doctor</li>
+        <li>The 12th Doctor </li>
+        <!-- TemplateEndIf -->
+    </ul>
+      <!-- TemplateBeginIf cond="_document['The Companions ']" -->
+      <p><a href="../the-companions/index.html">The Companions </a></p>
+      <p><a href="../the-companions/susan-foreman.html">Susan Foreman </a></p>
+      <p><a href="../the-companions/ben-jackson.html">Ben Jackson </a></p>
+      <p><a href="../the-companions/liz-shaw.html">Liz Shaw</a></p>
+      <p><a href="../the-companions/sarah-jane-smith.html">Sarah Jane Smith</a></p>
+      <p><a href="../the-companions/tegan-jovanka.html">Tegan Jovanka </a></p>
+    <!-- TemplateEndIf --></td>
+ 
+    <td><!-- TemplateBeginEditable name="Content " -->
+      <h1>Content</h1>
+    <!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>
